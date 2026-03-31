@@ -9,7 +9,6 @@ import AboutSection from "@/components/AboutSection";
 import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const Index = () => {
   return (
@@ -25,7 +24,6 @@ const Index = () => {
       <FaqSection />
       <ContactSection />
       <Footer />
-      <SpeedInsights />
     </div>
   );
 };
