@@ -62,7 +62,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="absolute -inset-2 bg-primary/20 blur-2xl rounded-sm" />
             <img
-              src="/epoxy-hero.jpg"
+              src="/image10.jpg"
               alt="Real epoxy garage floor installation by Epoxy Flooring and Renovations"
               className="relative z-10 w-full h-72 object-cover rounded-sm border border-border"
             />

@@ -33,9 +33,9 @@ const HeroSection = () => {
       {/* Flooring image with overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/epoxy-hero.jpg"
+          src="/image2.jpeg"
           alt="Real Epoxy Garage Floor by Epoxy Flooring and Renovations"
-          className="w-full h-full object-cover opacity-15"
+          className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/90" />
       </div>

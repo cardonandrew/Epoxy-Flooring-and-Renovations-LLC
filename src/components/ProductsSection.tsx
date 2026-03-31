@@ -24,7 +24,7 @@ const epoxyProducts = [
     tagline: "Clean. Bold. Durable.",
     description:
       "A smooth, high-gloss uniform finish that transforms bare concrete into a professional-grade surface. Available in a wide range of custom colors — ideal for garages, shops, and commercial spaces.",
-    image: "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?w=800&auto=format&fit=crop&q=80",
+    image: "/hangar.jpg",
     features: ["Wide custom color selection", "High-gloss, smooth finish", "Chemical & oil resistant", "Easy to clean & maintain"],
     badge: "Great Value",
     color: "oklch(0.75 0.2 200)",
@@ -35,7 +35,7 @@ const epoxyProducts = [
     tagline: "Heavy-Duty. Built for Business.",
     description:
       "High-build epoxy and polyurea systems engineered for warehouses, retail spaces, auto shops, and industrial facilities. We design a coating solution around your specific traffic, chemical exposure, and aesthetic requirements.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+    image: "/commercial.jpg",
     features: ["Custom color & texture options", "Heavy foot & vehicle traffic rated", "Chemical & oil spill resistant", "Scalable for any commercial size"],
     badge: "Commercial Grade",
     color: "oklch(0.65 0.22 280)",
@@ -49,7 +49,7 @@ const additionalServices = [
     tagline: "Fresh Look. Fast Turnaround.",
     description:
       "Full interior garage painting — walls, ceilings, and trim. Pair it with your new epoxy floor for a complete transformation. One crew, one visit.",
-    image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&auto=format&fit=crop&q=80",
+    image: "/paint.jpg",
     features: ["Walls, ceiling & trim", "Premium paint products", "Pairs with epoxy floors"],
     badge: "Popular Add-On",
   },
@@ -59,7 +59,7 @@ const additionalServices = [
     tagline: "Cracks Fixed. Surface Restored.",
     description:
       "Crack repair, patching, grinding, and small concrete pours — the prep work that makes your epoxy floor last for years.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+    image: "/crack.jpg",
     features: ["Crack & spall repair", "Surface grinding & leveling", "Pre-coating prep included"],
     badge: "Foundation First",
   },
@@ -69,7 +69,7 @@ const additionalServices = [
     tagline: "Clear It Out. Start Fresh.",
     description:
       "We'll haul away the junk before your floor install begins — one crew handles everything so you don't have to coordinate.",
-    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&auto=format&fit=crop&q=80",
+    image: "/junk.jpg",
     features: ["Full garage cleanouts", "Paired with floor installs", "Fast scheduling"],
     badge: "Convenient",
   },
@@ -79,7 +79,7 @@ const additionalServices = [
     tagline: "Durable Finish. Premium Look.",
     description:
       "Chip-resistant powder coating for metal surfaces, shelving, and garage hardware — perfect for completing your garage upgrade.",
-    image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&auto=format&fit=crop&q=80",
+    image: "/powder.jpg",
     features: ["Metal surfaces & hardware", "Chip & rust resistant", "Wide color range"],
     badge: "Premium Finish",
   },

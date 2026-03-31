@@ -1,26 +1,26 @@
 const photos = [
   {
-    src: "/epoxy-hero.jpg",
+    src: "/image9.jpeg",
     label: "Flake Chip Epoxy",
     span: "col-span-1 row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?w=600&auto=format&fit=crop&q=80",
+    src: "/image3.jpeg",
     label: "Solid Color Epoxy",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&auto=format&fit=crop&q=80",
+    src: "/image2.jpeg",
     label: "Concrete Surface Prep",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&auto=format&fit=crop&q=80",
+    src: "/image4.jpeg",
     label: "Garage Painting",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&auto=format&fit=crop&q=80",
+    src: "/image7.jpeg",
     label: "Powder Coating Finish",
     span: "col-span-1 row-span-1",
   },
