@@ -44,7 +44,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-24 md:pt-28">
         <div className="inline-flex items-center gap-2 border border-primary/30 bg-primary/10 px-4 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase text-primary mb-8">
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          Utah County's #1 Epoxy Floor Specialists
+          Utah County's Epoxy Floor Specialists
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none mb-6">
@@ -100,9 +100,9 @@ const HeroSection = () => {
         {/* Value pillars */}
         <div className="mt-8 grid grid-cols-3 gap-4 max-w-2xl mx-auto border border-border/50 bg-card/50 backdrop-blur-sm rounded-sm p-6">
           {[
-            { value: "Free", label: "On-Site Estimates" },
-            { value: "Flake & Solid", label: "Epoxy Systems" },
-            { value: "5★ Rated", label: "Utah County Crew" },
+            { value: "FREE", label: "On-Site Estimates" },
+            { value: "100%", label: "Satisfaction Guarunteed" },
+            { value: "DURABLE", label: "Epoxy Systems" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl font-black text-primary neon-glow">{stat.value}</div>

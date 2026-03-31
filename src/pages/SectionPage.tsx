@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ProductsSection from "@/components/ProductsSection";
 import GallerySection from "@/components/GallerySection";
 import AboutSection from "@/components/AboutSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
+// import TestimonialsSection from "@/components/TestimonialsSection";
 import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -25,7 +25,7 @@ const SectionPage = ({ scrollTo }: SectionPageProps) => {
       <GallerySection />
       <ServiceAreaSection />
       <AboutSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <FaqSection />
       <ContactSection />
       <Footer />
