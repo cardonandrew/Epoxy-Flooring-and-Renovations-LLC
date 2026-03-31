@@ -27,3 +27,6 @@ dist-ssr
 
 *.tsbuildinfo
 .eslintcache
+.ssh/
+*.pem
+id_ed25519*
