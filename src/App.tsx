@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import Index from "@/pages/Index";
 import SectionPage from "@/pages/SectionPage";
 import NotFound from "@/pages/NotFound";
@@ -29,6 +30,7 @@ function App() {
               <Route path="*" element={<NotFound />} />
           </Routes>
           <SpeedInsights />
+          <Analytics />
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
