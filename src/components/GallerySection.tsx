@@ -56,8 +56,8 @@ const GallerySection = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                <p className="text-sm font-bold text-foreground">{photo.label}</p>
-                <p className="text-xs text-primary tracking-widest uppercase">View Project</p>
+                {/* <p className="text-sm font-bold text-foreground">{photo.label}</p>
+                <p className="text-xs text-primary tracking-widest uppercase">View Project</p> */}
               </div>
               {/* Neon corner accent */}
               <div className="absolute top-3 right-3 w-6 h-6 border-r border-t border-primary/40 opacity-0 group-hover:opacity-100 transition-opacity" />
