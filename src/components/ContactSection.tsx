@@ -180,7 +180,7 @@ const ContactSection = () => {
           {/* Contact Info */}
           <div className="lg:col-span-2 flex flex-col gap-6">
             <a
-              href="tel:+18018886371"
+              href="tel:+13852404837"
               className="group flex items-center gap-4 p-6 rounded-sm border border-primary/30 card-gradient neon-border hover:border-primary transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-sm bg-primary/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors flex-shrink-0 animate-pulse-neon">
@@ -188,7 +188,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-xs text-muted-foreground tracking-widest uppercase mb-0.5">Call Us Now</p>
-                <p className="text-xl font-black text-foreground">801-888-6371</p>
+                <p className="text-xl font-black text-foreground">385-240-4837</p>
                 <p className="text-xs text-muted-foreground mt-0.5">Mon–Sat, 7am–6pm</p>
               </div>
             </a>
