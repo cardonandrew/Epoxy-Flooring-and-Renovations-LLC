@@ -65,11 +65,11 @@ const Navbar = () => {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="tel:+13852404837"
+            href="tel:+18018886371"
             className="flex items-center gap-2 text-sm font-medium text-primary border border-primary/40 px-4 py-2 rounded-sm hover:bg-primary/10 transition-all duration-200 neon-border-hover"
           >
             <Phone className="w-4 h-4" />
-            385-240-4837
+            801-888-6371
           </a>
           <Link
             to="/contact"
@@ -109,8 +109,8 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
-          <a href="tel:+13852404837" className="flex items-center gap-2 text-primary text-sm font-medium">
-            <Phone className="w-4 h-4" /> 385-240-4837
+          <a href="tel:+18018886371" className="flex items-center gap-2 text-primary text-sm font-medium">
+            <Phone className="w-4 h-4" /> 801-888-6371
           </a>
         </nav>
       )}

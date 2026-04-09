@@ -68,11 +68,11 @@ const HeroSection = () => {
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
           <a
-            href="tel:+13852404837"
+            href="tel:+18018886371"
             className="flex items-center gap-2 border border-border text-foreground font-medium text-sm px-8 py-4 rounded-sm hover:border-primary hover:text-primary transition-all duration-300"
           >
             <Phone className="w-4 h-4" />
-            Call 385-240-4837
+            Call 801-888-6371
           </a>
         </div>
 
